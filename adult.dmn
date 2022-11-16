@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_0348B178-C8FD-4E1C-B794-A3693E6D0A40" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_0DBD632B-E02A-4285-9793-142C045C528B" name="adult" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_0348B178-C8FD-4E1C-B794-A3693E6D0A40">
   <dmn:extensionElements/>
-  <dmn:inputData id="_F869AC7E-2C34-458A-97F9-99F552725126" name="age">
+  <dmn:inputData id="_F869AC7E-2C34-458A-97F9-99F552725126" name="age1">
     <dmn:extensionElements/>
-    <dmn:variable id="_1F63F83A-7289-4811-BA07-95F3F8DAE4F9" name="age" typeRef="number"/>
+    <dmn:variable id="_1F63F83A-7289-4811-BA07-95F3F8DAE4F9" name="age1" typeRef="number"/>
   </dmn:inputData>
   <dmn:decision id="_C1D87BC3-3CD2-4331-B0E7-E32833D55ED5" name="adult">
     <dmn:extensionElements/>
@@ -61,7 +61,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="149" y="145" width="100" height="50"/>
+        <dc:Bounds x="239" y="191" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_C1D87BC3-3CD2-4331-B0E7-E32833D55ED5" dmnElementRef="_C1D87BC3-3CD2-4331-B0E7-E32833D55ED5" isCollapsed="false">
@@ -70,12 +70,12 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="336" y="137" width="100" height="50"/>
+        <dc:Bounds x="438" y="65" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_2DD75F37-3A20-4293-8977-2F7ED0DA01CE-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_2DD75F37-3A20-4293-8977-2F7ED0DA01CE">
-        <di:waypoint x="199" y="145"/>
-        <di:waypoint x="386" y="187"/>
+        <di:waypoint x="289" y="191"/>
+        <di:waypoint x="488" y="115"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
